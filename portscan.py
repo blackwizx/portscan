@@ -238,9 +238,7 @@ else:
             thread.start()
     if __name__ == "__main__":
 	    notification.notify(
-		    title= "port scanner started",
+		    title= "portscan compleated",
             message= target, 
 		    timeout=5
 	)
-#end_time = time.time()
-#print("Time elapsed", end_time - start_time)

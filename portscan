@@ -1,0 +1,46 @@
+
+
+NAME
+       portscan  - A Network Exploration Toolkit
+
+SYNOPSIS
+       portscan [OPTION]... [Host ip]...
+
+DESCRIPTION
+       Gather information for a remote hosts , vulnerability discovery , port scanning , service version detection , Operating system  detection
+       
+
+       with no options , portscan will scan 1 to 1000 ports by default
+
+       -P, -p
+             scan for specific port 
+
+       -RNG, -rng 
+             scan target between provide range
+
+       -AG  , -ag
+             Aggressive scan (os detection , version detection , service detection )
+
+       -OS  , -os
+             OS detection (requires root privileges)
+      
+       -FST , -fst
+	     FAST SCAN (scan for 100 most popular ports)
+
+       -SV , -sv
+	     service version detection 
+
+AUTHOR
+       Written by Mitesh G. Pranav Malle and Hitesh .
+
+REPORTING BUGS
+
+       Report any translation bugs to deoretaker007@gmail.com
+
+
+
+
+
+
+	
+

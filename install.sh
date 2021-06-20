@@ -27,7 +27,7 @@ fi
 
 #install python dependencies
 
-apt-get update && apt-get install pip
+apt-get update && apt-get install pip;apt-get install nmap
 echo -e "$C pip install succesfully $C "
 pip install plyer;pip install colr
 echo -e "\n"
@@ -43,28 +43,4 @@ echo -e " $CB INSTALATION HAS BEEN DONE $CB"
 sleep 4
 echo -e "\n"
 echo -e "$YB *enter 'portscan -h' for more info $YB"
-sleep 3
-clear -x
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+sleep 2

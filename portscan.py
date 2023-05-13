@@ -26,7 +26,7 @@ def scan_port(port):
     try:
         a=socket.getservbyport(port)
     except OSError as error:
-        a=" "
+        a=" " 
     c=port
     count=0
     while c != 0:
